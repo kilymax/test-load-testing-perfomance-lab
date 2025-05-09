@@ -18,7 +18,6 @@ def main():
                 steps += 1
                 switch = True
     print(steps)
-            
 
 
 if __name__ == "__main__":
