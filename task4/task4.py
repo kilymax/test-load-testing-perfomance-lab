@@ -4,7 +4,7 @@ import json
 def main():
     numbers = list(map(int, open(sys.argv[1]).readlines()))
     steps = 0
-    mean = int(sum(numbers) / len(numbers))
+    mean = round(sum(numbers) / len(numbers))
     switch = True
     while switch:
         switch = False
